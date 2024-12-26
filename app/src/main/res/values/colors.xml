@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#DFDEDE</color>
+
+    <!-- Blush Pink Color Palette -->
+    <color name="blush_pink_main">#DAB6C4</color> <!-- Main blush pink -->
+    <color name="soft_lavender">#E6C3DD</color> <!-- Soft lavender shade -->
+    <color name="pale_rose">#F3D1E1</color> <!-- Pale rose tone -->
+    <color name="warm_peach">#EFB7AE</color> <!-- Warm peach hue -->
+    <color name="rose_gold">#DF9D8E</color> <!-- Rose gold accent -->
+    <color name="dusty_pink">#D5A5A0</color> <!-- Dusty pink -->
+    <color name="light_pink">#FCE5EC</color> <!-- Light pink -->
+    <color name="soft_beige">#F7ECEB</color> <!-- Soft beige background -->
+    <color name="lavender_grey">#B7A4B1</color> <!-- Lavender-grey contrast -->
+    <color name="pearl_white">#FDFCFB</color> <!-- Pearl white highlight -->
+    <color name="soft_pink"> #F8BBD0</color> <!-- Pearl white highlight -->
+    <color name="blue_sky"> #92E0E7</color>
+
+
+</resources>

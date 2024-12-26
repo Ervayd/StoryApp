@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947483023751",
+    "project_id": "storypop-ecdef",
+    "storage_bucket": "storypop-ecdef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947483023751:android:c252c741982c74b2cf9b22",
+        "android_client_info": {
+          "package_name": "com.example.storypop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD21tr5ozaAxQNUv4g269BTIiqdOwWS84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

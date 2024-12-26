@@ -1,0 +1,87 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:padding="16dp"
+    android:background="@color/soft_beige"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Story Image -->
+        <ImageView
+            android:id="@+id/imageViewStory"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/light_gray"
+            android:contentDescription="Story Image"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Story Caption -->
+        <TextView
+            android:id="@+id/textViewStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Story Caption"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:background="@color/pearl_white"
+            android:elevation="4dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Like Count, Like Button, and Pin Button in the same row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp">
+
+            <!-- Like Count -->
+            <TextView
+                android:id="@+id/textViewLikeCount"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="0 Likes"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"/>
+
+            <!-- Like Button -->
+            <ImageButton
+                android:id="@+id/like_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_unliked"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Like"
+                app:tint="@color/blush_pink_main"
+                android:layout_marginEnd="16dp"
+                android:elevation="4dp"/>
+
+            <!-- Pin Button -->
+            <ImageButton
+                android:id="@+id/pin_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_unpinned"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Pin"
+                app:tint="@color/rose_gold"
+                android:elevation="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

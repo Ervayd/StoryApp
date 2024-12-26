@@ -1,0 +1,13 @@
+<!-- res/drawable/gradient_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Definisi gradient warna -->
+            <gradient
+                android:startColor="@color/light_pink"
+                android:endColor="@color/dusty_pink"
+                android:angle="45"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>
